@@ -8,15 +8,28 @@
         <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <div class="row">
-            <div><button id="back">back</button></div>
-            <div><button id="forward">forward</button></div>
-            <button id="play">Play</button>
-            <div id="radio"></div>
-            <audio
-                src="audio/Alok & Yves V - Innocent (feat. Gavin James) [Official Music Video].mp3"
-            ></audio>
+        <div class="titles"></div>
+        <div class="container">
+            <img id="radio" src="images/radio.jpeg" alt="" />
         </div>
+
+        <div class="control-container">
+            <div>
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+            </div>
+            <div>
+                <button id="back">back</button>
+                <button id="next">forward</button>
+            </div>
+        </div>
+        <div class="stations">
+            <button class="station1">EDM</button>
+            <button class="station2">TOP HITS</button>
+            <button class="station3">BALLADS</button>
+            <button class="station4">THROWBACKS</button>
+        </div>
+
         <script src="js/script.js"></script>
     </body>
 </html>

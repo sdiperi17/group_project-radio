@@ -1,3 +1,47 @@
-.row {
-    display: flex;
+#radio {
+    position: relative;
+    width: 100vw;
+    top: 100px;
+}
+
+.control-container {
+    position: absolute;
+    top: 34%;
+    left: 41%;
+}
+
+.control-container div {
+    margin: 15px;
+}
+
+.control-container button {
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: darkgrey;
+    color: black;
+    /* border-style: none; */
+    width: 70px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+}
+
+.stations {
+    position: absolute;
+    top: 27%;
+    left: 39%;
+}
+
+.stations button {
+    border-radius: 20px;
+    background: black;
+    color: white;
+    border-style: none;
+    padding: 10px;
+}
+
+.titles {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
 }
